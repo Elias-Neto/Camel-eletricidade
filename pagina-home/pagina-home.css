@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--principal);
+}
+
+:root{
+    /* FONTES */
+
+    --principal: 'Inter', sans-serif;
+
+    /* CORES */
+    --cor1: #2D3142;
+    --cor2: #2d3142b5;
+    --cor3: #F2F2F2;
+    --cor4: #D9D9D9;
+    --cor5: #F29F05;
+    --cor6: #FFFFFF;
+}
+
+/* Classes com reutilização ao longo do código */
+
+.alinhar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configurações gerais da pagina Home */
+
+main{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2bf808a;
+}
+
+#main_container{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 35px;
+}
+
+/* Seção de configurações do carrossel de publicidade */
+
+#main_container{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 35px;
+}
+
+.publi_config{
+    border-radius: 10px;
+    width: 50vw;
+    max-width: 400px;
+}
+
+/* Seção de configurações do carrosel de categorias */
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#carro_cat{
+    width: 95%;
+    margin:35px auto 35px auto;
+    padding: 15px 0 15px 0;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    color: var(--cor1);
+}
+
+.item_cat > img{
+    background-color: var(--cor4);
+    border-radius: 50%;
+    width: 15vw;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.item_cat > p{
+    margin: 0px;
+}
